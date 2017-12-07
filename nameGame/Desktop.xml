@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- @By Nauman SH @For WillowTree @Project name-Game--> 
+
+<suite name="WillowTree Test Project- nameGame- Windows Desktop">
+<listeners>
+<listener class-name="com.willowTree.nameGame.Listeners"/>
+</listeners>
+
+<test name="App Main Page -Validity of Correct page Tests" preserve-order="true">
+<classes>
+  <class name="com.willowTree.nameGame.AppMainPage"/>    
+ </classes>
+</test>
+
+<test name="Game Counters -Validity Tests" preserve-order="true"> 
+<classes>
+  <class name="com.willowTree.nameGame.GameCounters"/>    
+ </classes>
+</test>
+
+<test name="Name and Photos -Validity Tests" preserve-order="true"> 
+<classes>
+  <class name="com.willowTree.nameGame.Names_Photos"/>    
+ </classes>
+</test>
+
+</suite>

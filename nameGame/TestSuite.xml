@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- @By Nauman SH @For WillowTree @Project name-Game--> 
+
+<suite name="WillowTree Project suite - name-Game"  > 
+
+        <suite-files>
+               <suite-file path="./Android.xml" />
+               <suite-file path="./Desktop.xml" />
+        </suite-files>
+</suite>
+
+
