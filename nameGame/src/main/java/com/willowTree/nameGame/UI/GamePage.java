@@ -69,7 +69,6 @@ TestBase test;
 				manualClickCount++;
 				if(gal.getAttribute("class").contains("photo correct")) {
 					Thread.sleep(4000);
-					System.out.println("If executed for ");
 					break;
 				}
 			}
@@ -158,7 +157,6 @@ TestBase test;
 			for(WebElement gal:GalleryList()) {
 				test.waitOnly(gal,driver).click();
 				if(gal.getAttribute("class").contains("photo wrong")) {
-					System.out.println("at "+k +"name is " +gal.findElement(By.className("name")).getText());
 					Name_Fail.add(gal.findElement(By.className("name")).getText());		
 				}
 				k++;

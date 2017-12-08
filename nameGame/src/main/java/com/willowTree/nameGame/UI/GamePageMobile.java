@@ -162,7 +162,6 @@ public class GamePageMobile{
 				test.waitOnlyMobile(gal,Adriver).click();
 				if(gal.getAttribute("class").contains("photo wrong")) {
 					Thread.sleep(3000);
-					System.out.println("at "+k +"name is " +gal.findElement(By.className("name")).getText());
 					Name_Fail.add(gal.findElement(By.className("name")).getText());		
 				}
 				k++;

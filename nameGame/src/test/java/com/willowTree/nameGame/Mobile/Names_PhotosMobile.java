@@ -53,7 +53,6 @@ public class Names_PhotosMobile extends TestBase {
 		}
 			
 		boolean result = screen1_Name.equals(screen2_Name);
-		System.out.println("result is "+result);
 		Assert.assertFalse(result, "Test failed as arrays matches");
 		}
 	
